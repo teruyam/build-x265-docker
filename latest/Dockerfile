@@ -1,4 +1,4 @@
-FROM build-x265-deps
+FROM build-x265:deps
 
 RUN mkdir /output
 
