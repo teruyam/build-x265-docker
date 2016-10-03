@@ -16,12 +16,12 @@ git clone https://github.com/MasashiTeruya/build-x265-docker.git
 
 Build base image
 ```
-cd build-x265-docker/deps && docker build -t build-x265-docker-deps .
+cd build-x265-docker/deps && docker build -t build-x265-deps .
 ```
 
 Build build image
 ```
-cd build-x265-docker/latest && docker build -t build-x265-docker-latest .
+cd build-x265-docker/latest && docker build -t build-x265-latest .
 ```
 
 Run build image with host /tmp directory is mounted.
