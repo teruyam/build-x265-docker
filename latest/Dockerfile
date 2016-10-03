@@ -1,4 +1,4 @@
-FROM build-x265:deps
+FROM teruya/build-x265:deps
 
 RUN mkdir /output
 
