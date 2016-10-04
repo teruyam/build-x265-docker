@@ -10,4 +10,5 @@ ENTRYPOINT hg clone $CLONE_URL && \
     cd /x265/build/linux && \
     cmake -G "Unix Makefiles" ../../source && \
     make && \
-    cp -p x265 /output/
+    cp -p x265 /output/ && \
+    cp -p libx265.* /output/
