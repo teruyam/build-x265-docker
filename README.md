@@ -12,6 +12,10 @@ Run build image from Docker Hub with host /tmp directory mounted.
 ```
 docker run -v /tmp:/output teruya/build-x265:latest
 ```
+Build released source.
+```
+docker run -v /tmp:/output teruya/build-x265:release
+```
 
 After build, You will find x265 binary is at /tmp/x265
 
